@@ -88,3 +88,10 @@ body {
     .sidenav a {font-size: 18px;}
   }
 
+
+  .tksLogoLink {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+  }
