@@ -1,0 +1,129 @@
+/* .dropbtn {
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #D3D3D3;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Lato', sans-serif;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #000000;
+}
+.container {
+    position: relative;
+}
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+} */
+
+body {
+	font-family: "Lato";
+}
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: rgb(49, 49, 49);
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #ffffff;
+	display: block;
+	transition: 0.3s;
+}
+.sidenav a:hover {
+	color: #38afff;
+}
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav a {
+		font-size: 18px;
+	}
+}
+.background {
+	position: relative;
+}
+.background .container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.background .container h1 {
+	color: #FFF;
+	font-size: 3em;
+	line-height: 105%;
+	margin-bottom: 0;
+	text-align: center;
+	font-family: "Lato";
+}
+.background .container h2 {
+	color: #FFF;
+	font-size: 3em;
+	line-height: 105%;
+	margin-bottom: 0;
+	text-align: center;
+}
+.headpage {
+	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.212), rgb(0, 0, 0)), url('https://i.imgur.com/0KzSXdk.jpeg');
+	height: 800px;
+	/* background-position: center center fixed; */
+	/* background-repeat: no-repeat; */
+	/* -webkit-background-size: cover; */
+	margin: 0px;
+	/* i tried putting these lines of code up and still wont fix the background problem */
+	position: relative;
+}
+h2 {
+	position: absolute;
+	top: -10px;
+	left: 30px;
+	color: #FFF;
+}
+/* url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3304&q=80'); 
+  EXTRA IMAGE ABOVE
+  */
