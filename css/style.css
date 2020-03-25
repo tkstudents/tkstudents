@@ -1,6 +1,10 @@
 
+html {
+	height: 100%;
+}
 body {
 	font-family: "Lato";
+	height: 100%;
 }
 .sidenav {
 	height: 100%;
@@ -53,8 +57,6 @@ body {
 .background .container h1 {
 	color: #FFF;
 	font-size: 3em;
-	line-height: 105%;
-	margin-bottom: 0;
 	text-align: center;
 	font-family: "Lato";
 }
@@ -74,6 +76,8 @@ body {
 	margin:0;
 	/* i tried putting these lines of code up and still wont fix the background problem */
 	position: relative;
+	top: 0;
+	left: 0;
 }
 h2 {
 	position: absolute;
@@ -81,6 +85,23 @@ h2 {
 	left: 30px;
 	color: #FFF;
 }
+
+.headpage {
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: table;
+
+	background: linear-gradient( to bottom, rgba(0, 0, 0, 0.212), rgb(0, 0, 0)), url('https://i.imgur.com/0KzSXdk.jpeg');
+	position: absolute;
+	left:0;
+	top:0;
+  }
+
 /* url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3304&q=80'); 
   EXTRA IMAGE ABOVE
   */
+
