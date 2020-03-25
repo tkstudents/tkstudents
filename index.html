@@ -4,35 +4,33 @@
 <head>
 	<link href="css/style.css" rel="stylesheet"><!-- <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> -->
 	<link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 	<title>
 	</title>
 </head>
 
 <body>
-	<div class="sidenav" id="sideNav">
-		<a class="closebtn" href="javascript:void(0)" onclick="closeNav()">&times;</a> <a href="#gallery">Students</a> <a href="#about">About TKS</a> <a class="tksLogoLink" href="https://theksociety.com/"><img src="images/tks.png"></a>
-	</div>
+	<nav class="navbar navbar-dark navbar-expand-md fixed-top text-light" style="font-family: lato; font-weight: 900;">
+		<div class="container"><a class="navbar-brand flex-grow-1 justify-content-start" href="#" style="opacity: 1;filter: blur(0px);">TKStudents</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navcol-1">
+				<ul class="nav navbar-nav flex-grow-1 justify-content-end">
+					<li class="nav-item" role="presentation"><a class="nav-link active" href="#home">Home</a></li>
+					<li class="nav-item" role="presentation"><a class="nav-link" href="#about">About Us</a></li>
+					<li class="nav-item" role="presentation"><a class="nav-link" href="#">Placeholder (Add something here or remove)</a></li>
+				</ul>
+			</div>
+			</div>
+			
+</nav>
 
-
-	<section class="background headpage">
+	<section id="home" class="background headpage">
 		<div class="container">
 			<h1>T K S - F O U N D A T I O N S</h1>
 		</div>
 	</section>
-
-
-	<div onclick="openNav()" style="font-size:30px;cursor:pointer">
-		<h2>&#9776;</h2>
-	</div>
-	<script>
-	          function openNav() {
-	          document.getElementById("sideNav").style.width = "250px";
-	          }
-	          
-	          function closeNav() {
-	          document.getElementById("sideNav").style.width = "0";
-	          }
-	</script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/bs-init.js"></script>
 </body>
 </html>
